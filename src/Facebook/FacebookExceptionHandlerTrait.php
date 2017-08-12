@@ -6,7 +6,7 @@ use GuzzleHttp\Exception\RequestException;
 
 trait FacebookExceptionHandlerTrait
 {
-    private function handle(RequestException $e)
+    private function handleRequestException(RequestException $e)
     {
         if ($e->hasResponse()) {
             $error = $e->getResponse()->getBody(true)->getContents();
