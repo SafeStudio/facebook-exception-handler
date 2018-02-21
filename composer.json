@@ -2,7 +2,7 @@
     "name": "safestudio/facebook-exception-handler",
     "description": "Handle Facebook Exception Message",
     "type": "library",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "ansidev",
